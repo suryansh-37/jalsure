@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jalsure - Water Purity Monitoring</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <div class="logo">Jalsure</div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#sensors">Sensors</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="mobileMenuBtn" class="mobile-menu-btn">☰</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Ensuring Clean Water for a Better Future</h1>
+      <p>Detecting and Monitoring Water Purity Across India</p>
+      <a href="#sensors" class="cta-button">Explore Sensors</a>
+    </div>
+  </section>
+
+  <main>
+    <!-- Sensors Section -->
+    <section id="sensors" class="sensors-section">
+      <h2>Sensor Locations</h2>
+      <div class="sensor-locations">
+        <ul>
+          <li>Delhi</li>
+          <li>Mumbai</li>
+          <li>Chennai</li>
+          <li>Kolkata</li>
+          <li>Hyderabad</li>
+          <li>Pune</li>
+          <li>Jaipur</li>
+          <li>Chandigarh</li>
+        </ul>
+      </div>
+    <!-- Replace the map image section with the following -->
+<div class="map-container">
+    <img src="https://maps.app.goo.gl/waL9FfJFimZ6SA3V9" alt="India Map" class="map">
+    <!-- Sensor markers (random demo positions) -->
+    <div class="sensor-marker" style="top: 30%; left: 40%;" title="Delhi Sensor"></div>
+    <div class="sensor-marker" style="top: 50%; left: 60%;" title="Mumbai Sensor"></div>
+    <div class="sensor-marker" style="top: 70%; left: 45%;" title="Chennai Sensor"></div>
+  </div>
+  
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="stat-box" id="sensorsStat">
+        <h3>Sensors Deployed</h3>
+        <p id="sensorsCount">0</p>
+      </div>
+      <div class="stat-box" id="dirtyWaterStat">
+        <h3>Dirty Water Detections</h3>
+        <p id="dirtyCount">0</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
